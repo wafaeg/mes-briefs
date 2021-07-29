@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap');
+header .navbar-brand{
+    font-family: 'Neuton', serif;
+}
+
+
+
+
+
+
+header .navbar-brand{
+    font-size: 50px;
+}
+
+header{
+    position: sticky;
+}
+
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase
+}
+/*
+.nav-item:hover{
+   background: #262626;
+   color:white; 
+}
+.navbar-light .navbar-nav .nav-item .navbar-link:hover{
+    background: #262626;
+    color:#fff;
+    
+}
+*/
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(13.jpg);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 260px 0 200px;
+}
+.banner h2 {
+    margin: 1em 0 0;
+    padding:0px;
+    font-size: 2.8em;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.btnD1{
+    display: inline-block;
+    margin: 1em 0 0;
+    background: #ff2670;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#content{
+    padding: 50px;
+    display: inline;
+}
+.img1{
+    box-sizing: border-box;
+    width: 33%;
+    float: right;
+    display: inline;
+}
+.prst{
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    display: inline;
+}
+
+
+
+// Source mixins
+
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+
+// Usage
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
